@@ -1,0 +1,63 @@
+<Biblioteka>
+	<Książka ISBN="9788374802932">
+    <Id>1</Id>
+		<Tytuł>Ślepowidzenie</Tytuł>
+    <Autor>
+      <autor>Peter Watts</autor>
+      <autor>Peter Watts</autor>
+    </Autor>
+    <Rok>1999</Rok>
+    <Wydawnictwo>Nowa Era</Wydawnictwo>
+    <Wolumen>1</Wolumen>
+	</Książka>
+
+  <Książka ISBN="9788308041789">
+    <Id>2</Id>
+		<Tytuł>Droga</Tytuł>
+    <Autor gender="male">
+      <firstname>Kazik</firstname>
+      <lastname>Kazikowski</lastname>
+    </Autor>
+    <Rok>1999</Rok>
+    <Wydawnictwo>Nowa Era</Wydawnictwo>
+    <Wolumen>2</Wolumen>
+	</Książka>
+
+  <Książka ISBN="9788324018796" Język="PL">
+    <Id>3</Id>
+		<Tytuł>Ulisses</Tytuł>
+    <Autor gender="female">
+      <firstname>Anna</firstname>
+      <lastname>Annowska</lastname>
+    </Autor>
+	  <Przekład>Maciej Słomczyński</Przekład>
+    <Rok>1999</Rok>
+    <Wydawnictwo>Nowa Era</Wydawnictwo>
+    <Wolumen>3</Wolumen>
+  </Książka>
+
+  <Książka ISBN="9788324018123" Język="ENG">
+    <Id>4</Id>
+    <Tytuł>Mocny</Tytuł>
+    <Autor gender="male">
+      <firstname>Tomasz</firstname>
+      <lastname>Tomaszewski</lastname>
+    </Autor>
+    <Przekład>Mateusz Mateuszewski</Przekład>
+    <Rok>1992</Rok>
+    <Wydawnictwo>Stara Era</Wydawnictwo>
+    <Wolumen>10</Wolumen>
+  </Książka>
+
+  <Książka ISBN="9788324018312" Język="PL">
+      <Id>5</Id>
+  		<Tytuł>Słaby</Tytuł>
+      <Autor gender="male">
+        <firstname>Paweł</firstname>
+        <lastname>Pawłowski</lastname>
+      </Autor>
+      <Rok>1919</Rok>
+      <Wydawnictwo>Era</Wydawnictwo>
+      <Wolumen>2</Wolumen>
+    </Książka>
+</Biblioteka>

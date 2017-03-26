@@ -1,0 +1,29 @@
+<!DOCTYPE Sklep [
+
+<!ELEMENT Sklep (Zamowienie+)>
+<!ELEMENT Zamowienie (Produkt+)>
+<!ELEMENT Produkt (Nazwa , Cena , (Ilosc|Sztuk))>
+<!ELEMENT Nazwa (#PCDATA)>
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT Ilosc (#PCDATA)>
+<!ELEMENT Sztuk (#PCDATA)>
+<!ATTLIST Produkt id CDATA #REQUIRED>
+<!ATTLIST Cena waluta CDATA #REQUIRED>
+<!ATTLIST Ilosc jednostka CDATA #REQUIRED>
+
+]>
+
+<Sklep>
+  <Zamowienie>
+    <Produkt id="1">
+      <Nazwa>Ryz</Nazwa>
+      <Cena waluta="zl">10.00</Cena>
+      <Ilosc jednostka="KG">2</Ilosc>
+    </Produkt>
+    <Produkt id="2">
+      <Nazwa>Makaron</Nazwa>
+      <Cena waluta="zl">2.00</Cena>
+      <Sztuk>4</Sztuk>
+    </Produkt>
+  </Zamowienie>
+</Sklep>

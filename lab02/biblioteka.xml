@@ -1,0 +1,36 @@
+
+<!DOCTYPE Biblioteka SYSTEM "biblioteka.dtd">
+  <Biblioteka>
+    <Książka ISBN="1" Język="PL">
+      <Tytuł>Asdf</Tytuł>
+      <Autorzy>
+        <Autor>
+          <Imię>Daw</Imię>
+          <Nazwisko>Kow</Nazwisko>
+        </Autor>
+      </Autorzy>
+      <RokWydania NumerWydania="2345">1199</RokWydania>
+    </Książka>
+
+    <Książka ISBN="2" Język="PL">
+      <Tytuł>Toas</Tytuł>
+      <Autorzy>
+        <Autor>
+          <Imię>Tom</Imię>
+          <Nazwisko>Kas</Nazwisko>
+        </Autor>
+      </Autorzy>
+      <RokWydania>1118</RokWydania>
+    </Książka>
+
+    <Książka ISBN="3">
+      <Tytuł>Taas</Tytuł>
+      <Autorzy>
+        <Autor>
+          <Imię>Rom</Imię>
+          <Nazwisko>Now</Nazwisko>
+        </Autor>
+      </Autorzy>
+      <RokWydania NumerWydania="23">1121</RokWydania>
+    </Książka>
+  </Biblioteka>

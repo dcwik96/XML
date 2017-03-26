@@ -1,0 +1,41 @@
+<Rezerwacja>
+  <ListaPodróżujących>
+    <Podróżnik>
+      <Imie>Dawid</Imie>
+      <Nazwisko>Cwik</Nazwisko>
+      <Wiek>dorosły</Wiek>
+    </Podróżnik>
+
+    <Podróżnik>
+      <Imie>Tomasz</Imie>
+      <Nazwisko>Tomaszewski</Nazwisko>
+      <Wiek>dziecko</Wiek>
+    </Podróżnik>
+
+    <Podróżnik>
+      <Imie>Marek</Imie>
+      <Nazwisko>Markowski</Nazwisko>
+      <Wiek>dorosły</Wiek>
+    </Podróżnik>
+  </ListaPodróżujących>
+
+  <ListaSegmentów>
+    <Segment typ="lotniczy">
+      <MiejsceStart>Bydgoszcz</MiejsceStart>
+      <CzasStart>10:00</CzasStart>
+      <MiejsceStop>Gdańsk</MiejsceStop>
+      <CzasStop>11:30</CzasStop>
+      <NazwaPrzewoźnika>Rejnar</NazwaPrzewoźnika>
+      <Cena>100zl</Cena>
+    </Segment>
+
+    <Segment typ="samochodowy">
+      <MiejsceStart>Kraków</MiejsceStart>
+      <CzasStart>9:00</CzasStart>
+      <MiejsceStop>Toruń</MiejsceStop>
+      <CzasStop>17:00</CzasStop>
+      <NazwaPrzewoźnika>Krakowski Bus</NazwaPrzewoźnika>
+      <Cena>55zl</Cena>
+    </Segment>
+  </ListaSegmentów>
+</Rezerwacja>

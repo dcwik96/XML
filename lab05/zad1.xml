@@ -1,0 +1,13 @@
+<!DOCTYPE Ogloszenie SYSTEM "zad1.dtd">
+<Ogloszenie>
+	<Samochód>
+		<Producent>Audi</Producent>
+		<Model>Q7</Model>
+		<Silnik>
+			<Typ>Benzyna</Typ>
+			<Pojemność>4.0</Pojemność>
+		</Silnik>
+		<Kolor>Grafitowy &copyright;</Kolor>
+		<LiczbaMiejsc>7</LiczbaMiejsc>
+	</Samochód>
+</Ogloszenie>
