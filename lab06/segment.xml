@@ -1,0 +1,12 @@
+<s:Segment xmlns:s="https://www.inf.ug.edu.pl/xsd/segment" Typ="Lot" NumerRezerwacji="ATRGAT">
+	<s:Start>
+		<s:Czas Data="2000-10-10" Godzina="00:00:01"/>
+		<s:Miejsce>Gdańsk</s:Miejsce>
+	</s:Start>
+	<s:Cel>
+		<s:Czas Data="2000-10-10" Godzina="00:01:00"/>
+		<s:Miejsce>Gdynia</s:Miejsce>
+	</s:Cel>
+	<s:Przewoźnik>Uniwersytet Gdański</s:Przewoźnik>
+	<s:Cena Waluta="PLN">1000</s:Cena>
+</s:Segment>

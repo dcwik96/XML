@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE mapa [
+  <!ENTITY drzewo SYSTEM "drzewo.ent">
+  <!ENTITY mur SYSTEM "mur.ent">
+  <!ENTITY skala SYSTEM "skala.ent">
+  <!-- Tutaj mozna umiescic wlasciwe DTD -->
+]>
+
+<mapa>
+  &drzewo;
+  &mur;
+  &skala;
+</mapa>

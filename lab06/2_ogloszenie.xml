@@ -1,0 +1,10 @@
+<o:Ogłoszenie xmlns:o="https://www.inf.ug.edu.pl/xsd/ogloszenie">
+  <o:Samochód>
+    <o:Marka>BMW</o:Marka>
+    <o:Silnik>
+      <o:Pojemność>1.2</o:Pojemność>
+      <o:TypPaliwa>Diesel</o:TypPaliwa>
+    </o:Silnik>
+    <o:RokProdukcji>2017</o:RokProdukcji>
+  </o:Samochód>
+</o:Ogłoszenie>

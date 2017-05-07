@@ -1,0 +1,35 @@
+<r:Sklep xmlns:r="https://www.inf.ug.edu.pl/xsd">
+    <r:Gitary>
+      <r:Gitara ilosc="10" rodzaj="klasyczna">
+        <r:Producent>Znany</r:Producent>
+        <r:Model ID="1">QKL-90</r:Model>
+        <r:Cena>200</r:Cena>
+        <r:Dostepny/>
+        <r:Opis>Przeznaczona na koncerty</r:Opis>
+      </r:Gitara>
+
+      <r:Gitara ilosc="0" rodzaj="elektryczna">
+        <r:Producent>Slynny</r:Producent>
+        <r:Model ID="1">QIL-1</r:Model>
+        <r:Cena>222</r:Cena>
+        <r:Opis>Z pradem</r:Opis>
+      </r:Gitara>
+    </r:Gitary>
+
+    <r:Akcesoria>
+      <r:Akcesorium ilosc="12">
+        <r:Producent>Fajny</r:Producent>
+        <r:Model ID="12">TU-12</r:Model>
+        <r:Cena>2</r:Cena>
+        <r:Dostepny/>
+        <r:Opis>Gumowaty</r:Opis>
+      </r:Akcesorium>
+
+      <r:Akcesorium ilosc="0">
+        <r:Producent>Fajny</r:Producent>
+        <r:Model ID="12">TU-12</r:Model>
+        <r:Cena>12</r:Cena>
+        <r:Opis>Gumowaty</r:Opis>
+      </r:Akcesorium>
+    </r:Akcesoria>
+</r:Sklep>

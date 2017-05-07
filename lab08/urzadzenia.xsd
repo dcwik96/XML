@@ -1,0 +1,35 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.inf.ug.edu.pl/urzadzenia"
+            xmlns="http://www.inf.ug.edu.pl/urzadzenia"
+            elementFormDefault="qualified">
+
+	<xsd:complexType name="Typ_Rzutnik">
+		<xsd:all>
+			<xsd:element name="Rozdzielczość" type="xsd:string" />
+			<xsd:element name="ŻywotnośćLampy" type="xsd:positiveInteger" />
+		</xsd:all>
+	</xsd:complexType>
+
+	<xsd:complexType name="Typ_Komputer">
+		<xsd:all>
+			<xsd:element name="Typ" type="Typ_TypKomputera" />
+			<xsd:element name="ŻywotnośćLampy" type="xsd:positiveInteger" />
+		</xsd:all>
+	</xsd:complexType>
+
+	<xsd:simpleType name="Typ_TypKomputera">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Desktop" />
+			<xsd:enumeration value="Mobile" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:complexType name="Typ_Headset">
+		<xsd:all>
+			<xsd:element name="Słuchawki" minOccurs="0" />
+			<xsd:element name="PojemnośćBaterii" type="xsd:positiveInteger" />
+		</xsd:all>
+	</xsd:complexType>
+
+</xsd:schema>
+

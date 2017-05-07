@@ -1,0 +1,53 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.inf.ug.edu.pl/xsd" xmlns="https://www.inf.ug.edu.pl/xsd" elementFormDefault="qualified">
+
+<xs:element name="Sklep" type="SklepTyp"/>
+
+<xs:complexType name="SklepTyp">
+  <xs:sequence>
+    <xs:element name="Gitary" type="GitaryTyp"/>
+    <xs:element name="Akcesoria" type="AkcesoriaTyp"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GitaryTyp">
+  <xs:sequence>
+    <xs:element name="Gitara" type="GitaraTyp" minOccurs="1" maxOccurs="unbounded"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AkcesoriaTyp">
+  <xs:sequence>
+    <xs:element name="Akcesorium" type="AkcesoriumTyp" minOccurs="1" maxOccurs="unbounded"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:group name="asortymentGrupa">
+  <xs:sequence>
+    <xs:element name="Producent" type="xs:string"/>
+    <xs:element name="Model" type="ModelTyp"/>
+    <xs:element name="Cena" type="xs:positiveInteger"/>
+    <xs:element name="Dostepny" minOccurs="0" maxOccurs="1"/>
+    <xs:element name="Opis" type="xs:string"/>
+  </xs:sequence>
+</xs:group>
+
+<xs:complexType name="ModelTyp">
+  <xs:simpleContent>
+    <xs:extension base="xs:string">
+      <xs:attribute name="ID" type="xs:positiveInteger"/>
+    </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="GitaraTyp">
+  <xs:group ref="asortymentGrupa"/>
+  <xs:attribute name="ilosc" type="xs:integer"/>
+  <xs:attribute name="rodzaj" type="xs:string"/>
+</xs:complexType>
+
+<xs:complexType name="AkcesoriumTyp">
+  <xs:group ref="asortymentGrupa"/>
+  <xs:attribute name="ilosc" type="xs:integer"/>
+</xs:complexType>
+
+</xs:schema>
